@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* 全体のスタイル */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* header のスタイル */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/header.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.header-title {
+    display: block;
+    margin-left: 10%;
+}
+.header-title img {
+    width: 64px;
+    height: 64px;
+}
+.header-title h1 {
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: gold;
+}
+.header-play {
+    display: block;
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+.header-play button {
+    color: orange;
+    border: orange 3px solid;
+    background-color: rgba(255, 165, 0, 0.2);
+    width: 140px;
+    height: 140px;
+    font-size: 200%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header-play button:hover {
+    background-color: rgba(255, 165, 0, 0.5);
+}
+.header-play p {
+    color:lightsalmon;
+    font-weight: bold;
+    line-height: 1.0;
+    font-size: 60%;
+    width: 300px;
+}
+
+
+/* footer のスタイル */
+footer{
+    background-color: whitesmoke;
+    padding-top: 60px;
+    padding-bottom: 2px;
+}
+footer p {
+    color: dimgrey;
+    text-align: right;
+    font-size: 80%;
+    margin-right: 10px;
+}
+
+
+/* main のスタイル */
+main {
+    flex: 1;
+}
+main h2 {
+    color: khaki;
+    text-align: center;
+}
+main p {
+    color: wheat;
+    text-align: center;
+}
+.aquamarine { color: aquamarine; }
+.rules {
+    margin: 40px 20px;
+}
+.rules p {
+    margin: 0;
+    color: black;
+    text-align: left;
+}
+
+
+/* nav のスタイル */
+nav {
+    background-color: whitesmoke;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+nav li {
+    display: inline-block;
+    margin: 6px 30px;
+}
+nav a {
+    color: darkturquoise;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:focus {
+    outline: none;
+}
+nav a:hover {
+    color: gold;
+}
