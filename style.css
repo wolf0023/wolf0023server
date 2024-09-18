@@ -90,6 +90,10 @@ main p {
     text-align: center;
 }
 .aquamarine { color: aquamarine; }
+.error {
+    color: red;
+    font-weight: bold;
+}
 .rules {
     margin: 40px 20px;
 }
