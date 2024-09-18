@@ -15,7 +15,8 @@ html, body {
 header {
     display: flex;
     justify-content: space-between;
-    background-image: url("images/header.png");
+    /* github pagesのため、/wolf0023server/images/~ を追加 */
+    background-image: url("/wolf0023server/images/header.png");
     background-size: cover;
     background-position: center;
     padding-top: 50px;
@@ -92,6 +93,7 @@ main p {
 .aquamarine { color: aquamarine; }
 .error {
     color: red;
+    text-align: center;
     font-weight: bold;
 }
 .rules {
