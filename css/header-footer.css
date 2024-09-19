@@ -68,6 +68,6 @@ footer p {
 }
 
 @keyframes fade-in {
-    from {opacity: 0;}
+    from {opacity: 0.6;}
     to {opacity: 1;}
 }
