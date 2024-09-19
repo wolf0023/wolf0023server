@@ -42,7 +42,7 @@ main p {
     font-weight: bold;
 }
 .rules {
-    margin: 40px 20px;
+    margin-left: 40px;
 }
 .rules p {
     margin: 0;
