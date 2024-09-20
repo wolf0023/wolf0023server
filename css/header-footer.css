@@ -8,31 +8,31 @@ header {
     background-position: center;
     padding-top: 50px;
     padding-bottom: 40px;
-    min-height: 260px;
+    min-height: 230px;
 }
 .header-title {
     display: block;
     margin-left: 10%;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 .header-title img {
     width: 64px;
     height: 64px;
-    animation-name: fade-in;
-    animation-duration: 3s;
 }
 .header-title h1 {
     width: 500px;
     margin-top: 10px;
     margin-left: 60px;
     color: gold;
-    animation-name: fade-in;
-    animation-duration: 3s;
 }
 .header-play {
     display: block;
     text-align: center;
     margin-right: 15%;
     margin-top: 2%;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 .header-play button {
     color: orange;
