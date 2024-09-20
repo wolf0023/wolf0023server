@@ -8,7 +8,7 @@ header {
     background-position: center;
     padding-top: 50px;
     padding-bottom: 40px;
-    min-height: 220px;
+    min-height: 260px;
 }
 .header-title {
     display: block;
@@ -17,12 +17,16 @@ header {
 .header-title img {
     width: 64px;
     height: 64px;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 .header-title h1 {
     width: 500px;
     margin-top: 10px;
     margin-left: 60px;
     color: gold;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 .header-play {
     display: block;
@@ -63,4 +67,9 @@ footer p {
     text-align: right;
     font-size: 80%;
     margin-right: 10px;
+}
+
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
