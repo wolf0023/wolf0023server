@@ -13,9 +13,12 @@ html, body {
 
 
 /* main のスタイル */
+main {
+    flex: 1;
+    min-height: 100vh;
+}
 main p {
     color: wheat;
-
     text-align: center;
 }
 main h2 {

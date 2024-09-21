@@ -58,10 +58,10 @@ header {
 
 /* footer のスタイル */
 footer{
-    min-width: 900px;
     background-color: whitesmoke;
     padding-top: 60px;
     padding-bottom: 2px;
+    margin-top: 12px;
 }
 footer p {
     color: dimgrey;
