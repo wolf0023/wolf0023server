@@ -46,8 +46,8 @@ main h2 {
 }
 .home-image{
     display: block;
-    background-image: url("/images/home.png");
-    background-color: snow;
+    background-image: url("images/home.png");
+    background-color: whitesmoke;
     background-position: center;
     background-size: cover;
     padding-top: 1px;
