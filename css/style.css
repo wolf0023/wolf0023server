@@ -51,6 +51,7 @@ main h2 {
     background-color: whitesmoke;
     background-position: center;
     background-size: cover;
+    border-radius: 30px;
     padding-top: 1px;
     padding-bottom: 34%;
     margin: 0 16%;
