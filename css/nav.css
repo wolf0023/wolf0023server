@@ -2,7 +2,7 @@
 nav {
     background-color: whitesmoke;
     text-align: center;
-    min-height: 32px;
+    height: 32px;
 }
 nav ul {
     margin: 0;
