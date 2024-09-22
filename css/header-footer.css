@@ -2,7 +2,7 @@
 header {
     display: flex;
     justify-content: space-between;
-    /* github pagesの404 pageのため、/wolf0023server/images/~ を追加 */
+    /* github pagesのため、フルパスで指定 */
     background-image: url("/wolf0023server/images/header.png");
     background-size: cover;
     background-position: center;

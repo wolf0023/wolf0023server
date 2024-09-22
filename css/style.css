@@ -46,7 +46,8 @@ main h2 {
 }
 .home-image{
     display: block;
-    background-image: url("images/home.png");
+    /* github pagesのため、フルパスで指定 */
+    background-image: url("/wolf0023server/images/home.png");
     background-color: whitesmoke;
     background-position: center;
     background-size: cover;
