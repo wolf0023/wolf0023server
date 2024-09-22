@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-/* 全体のスタイル */
+/* 全体*/
 html, body {
     min-width: 960px;
     margin: 0;
@@ -12,7 +12,7 @@ html, body {
 }
 
 
-/* main のスタイル */
+/* main要素*/
 main {
     flex: 1;
     min-height: 100vh;
@@ -24,7 +24,6 @@ main p {
 main h2 {
     text-align: center;
 }
-.aquamarine { color: aquamarine; }
 .page-title{
     color:sandybrown;
     border: khaki solid 3px;
@@ -34,6 +33,33 @@ main h2 {
     width: 400px;
     margin: 20px auto;
 }
+.page-subtitle{
+    color: wheat;
+    margin-bottom: 40px;
+    font-size: 110%;
+}
+
+/* ホームページのスタイル */
+.home-title{
+    color: goldenrod;
+    font-size: 200%;
+}
+.home-image{
+    display: block;
+    background-image: url("/images/home.png");
+    background-color: snow;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 34%;
+    margin: 0 16%;
+}
+.home-image p{
+    color: cadetblue;
+    font-size: 120%;
+}
+
+/* 404ページのスタイル */
 .error-404 {
     margin: 30px;
 }
@@ -42,6 +68,8 @@ main h2 {
     text-align: center;
     font-weight: bold;
 }
+
+/* ルールページのスタイル */
 .rules {
     margin: auto 40px;
 }

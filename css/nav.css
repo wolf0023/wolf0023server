@@ -2,7 +2,7 @@
 nav {
     background-color: whitesmoke;
     text-align: center;
-    min-height: 36px;
+    min-height: 32px;
 }
 nav ul {
     margin: 0;
@@ -10,8 +10,8 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
-    padding: 0 36px;
-    margin: 6px 0;
+    padding: 0 3%;
+    margin: 3px 0;
     
 }
 nav ul li:not(:last-child) {
@@ -21,6 +21,7 @@ nav ul li a {
     color: darkturquoise;
     text-decoration: none;
     font-weight: bold;
+    font-size: 90%;
 }
 nav ul li a:focus {
     outline: none;
