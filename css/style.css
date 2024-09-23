@@ -16,7 +16,7 @@ html, body {
 /* main要素*/
 main {
     margin-top: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     min-height: 60vh;
 }
 main p {
@@ -39,7 +39,7 @@ main h2 {
     color: wheat;
     margin-bottom: 40px;
     font-size: 110%;
-    line-height: 16px
+    line-height: 0.8;
 }
 
 /* ホームページのスタイル */
@@ -75,11 +75,27 @@ main h2 {
 }
 
 /* ルールページのスタイル */
-.rules {
+#rules {
     margin: auto 40px;
 }
-.rules p {
+#rules p {
     margin: 0;
     color: black;
     text-align: left;
+}
+#rules p.top {
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+#rules p.rule-section {
+    color:coral;
+    padding: 10px 0;
+}
+#rules p.rule-title {
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#rules p.rule-description {
+    padding-left: 40px;
+    padding-bottom: 5px;
 }
