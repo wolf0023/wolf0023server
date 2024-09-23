@@ -76,7 +76,7 @@ main h2 {
 
 /* ルールページのスタイル */
 #rules {
-    margin: auto 40px;
+    margin: auto 180px;
 }
 #rules p {
     margin: 0;
@@ -89,13 +89,14 @@ main h2 {
 }
 #rules p.rule-section {
     color:coral;
-    padding: 10px 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 #rules p.rule-title {
-    padding-left: 20px;
+    padding-left: 30px;
     padding-bottom: 5px;
 }
 #rules p.rule-description {
-    padding-left: 40px;
+    padding-left: 60px;
     padding-bottom: 5px;
 }
