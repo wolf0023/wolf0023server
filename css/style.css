@@ -49,8 +49,7 @@ main h2 {
 }
 .home-image{
     display: block;
-    /* github pagesのため、フルパスで指定 */
-    background-image: url("../images/home.png");
+    background-image: url("/images/home.png");
     background-color: whitesmoke;
     background-position: center;
     background-size: cover;
