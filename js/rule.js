@@ -1,4 +1,4 @@
-fetch("/wolf0023server/json/rules.json")
+fetch("json/rules.json")
     .then((response) => response.json())
     .then((json_data) => {
         // 利用規約のタイトル
