@@ -6,3 +6,6 @@
 /server-info.html /server-info 301
 /pictures.html /pictures 301
 /forms.html /forms 301
+/include/footer.html / 301
+/include/header.html / 301
+/include/nav.html / 301
